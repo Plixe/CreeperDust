@@ -1,0 +1,21 @@
+#
+# IMPORTANT INFORMATIONS
+#
+# You can use color code in all messages. But you need to use the '&' caracter.
+# You can see all colors availaible here:
+# https://minecraft.gamepedia.com/Formatting_codes
+#
+# If you found bugs or errors you can open a ticket here:
+# https://www.github.com/Plixe/CreeperDust/issues
+# Thanks to you help !
+#
+
+global-messages:
+   no-permissions: "&cYou don't have the permissions."
+   unknow-command: "&cUnknow command."
+   need-player: "&cYou need to be a player to do that."
+
+commands-messages:
+   help:
+   - "&a/creeperdust reload &8- &7Reload configs files."
+   - "&a/creeperdust items &8- &7Show custom items."

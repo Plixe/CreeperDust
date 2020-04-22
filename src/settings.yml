@@ -1,0 +1,98 @@
+#
+# /!\ IMPORTANT INFORMATIONS /!\
+#
+# Some items change their name between minecraft version. 
+# Be aware to use the correct Bukkit Name of items material. 
+# Some features were disabled because to this. To enable them 
+# delete the "#!".
+#
+# If you found bugs or errors you can open a ticket on github.
+# https://www.github.com/Plixe/CreeperDust/issues
+# Thanks for your help !
+#
+
+# If set to true, the plugin log in console all debug messages. 
+debug: false
+
+extra-settings:
+   
+   # If set to false, custom items can be used in vanilla crafts.
+   # I recommend to let this to true.
+   disable-vanilla-crafts: true
+
+drops-settings:
+
+   # If set to true, creeper directly drop creeper egg instead 
+   # of creeper dust.
+   directly-drop-creeper-egg: false
+
+   # Entities of the list will drop the creeper dust or the creeper egg.
+   droppers:
+   - CREEPER
+   
+   # If set to true, droppers only drops if they are killed by player.
+   # This can reduce lags by blocking useless drops that will be never
+   # picked by player.
+   only-dropped-by-player: true
+   
+   # If set to true, the permissions "creeperdust.drop" and 
+   # "creeperdust.drop.always" are enabled.
+   use-drop-permissions: false
+   
+   # You can change the drop percent rate. You can't use decimal number right now!
+   # To give you an example, rare drops (like Wither Skeleton Skulls) have typically 
+   # 2.5% chance to drops. And common drops (like bones) have usually 33% chances 
+   # to drops.
+   # So, less the number is, more the drop is rare.
+   drop-rate: 8
+   
+   # In minecraft enchantment Looting increase of 1% by level drops rate.
+   # Looting increase 1 by level the minimum and maximum quantities of drops.
+   # Set 0 if you don't wan't Looting change the drop rate or the quantities.
+   looting-increase-by-level:
+      drop-rate: 1
+      drop-quantity: 2
+      
+   
+   # If set to true, charged creeper will drop with a different drop
+   # rate. Creeper must be in the droppers list to enable this feature.
+   charged-creeper:
+      enable: true
+      drop-rate: 80
+
+   # Change the quantity of drops. If min and max are not equals
+   # the quantity of items dropped is random between the two value.
+   drop-quantity:
+      min: 1
+      max: 2
+
+items-settings:
+
+   # You can customize the creeper dust item here.
+   creeper-dust:
+#!      material: GUNPOWDER
+      display-name: "&aCreeper Dust"
+      lore:
+      - "&7It seems to be usefull..."
+   
+   # You can change the crafted creeper egg name and lore too.
+   # To enable it just remove the '#' before the next lines.
+   creeper-egg:
+#!      material: CREEPER_SPAWN_EGG
+#!      display-name: "&2Creeper Egg!"
+#!      lore:
+#!      - "&7Be careful with that !"
+
+craft-settings:
+
+   # There is the craft lines. This represent the grid of the
+   # crafting table. You must specify what item the letter
+   # represent in the "selector" part.
+#!   craft-lines:
+#!   - "DDD"
+#!   - "DED"
+#!   - "DDD"
+   
+#!   craft-materials:
+#!      E: EGG
+#!      D: CREEPER_DUST

@@ -1,0 +1,28 @@
+main: fr.plixe.creeperdust.MainCreeperDust
+name: CreeperDust
+description: Craft creepers eggs with creepers drops
+author: Plixe
+api-version: 1.13
+version: 0.1
+
+commands:
+   creeperdust:
+      description: Plugin's Main command.
+      aliases: [cdust]
+
+permissions:
+   creeperdust.drop:
+      default: op
+      description: If permissions are enabled, player have a chance to drop creeper dust.
+   creeperdust.drop.always:
+      default: false
+      description: If permissions are enabled, player always drop creeper dust.
+   creeperdust.help:
+      default: op
+      description: Allow to show plugin's help messages.
+   creeperdust.reload:
+      default: op
+      description: Allow to use the plugin's reload command.
+   creeper.items:
+      default: op
+      description: Allow to show the custom items gui.
