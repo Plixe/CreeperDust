@@ -14,21 +14,8 @@ With CreeperDust, creepers can drop a new items used to craft creeper eggs, or d
 * Compatible with Spigot 1.7.10 to 1.15.2
 
 ## TO-DO
-* Nothing planned right now.
-
 If you have any suggestions or ideas I'll be glad to add them to the TO-DO list !
-
-## Compatibility
-This plugin was **only tested on a 1.15.2 Spigot server**. But **theoretically** it is compatible with Spigot:
-[x] 1.15.x
-[x] 1.14.x
-[x] 1.13.x
-[x] 1.12.x
-[x] 1.11.x
-[x] 1.10.x
-[x] 1.9.x
-[x] 1.8.x
-[x] 1.7.10
+* Nothing planned right now.
 
 ## Download and installation
 You need firstable a Spigot's server, more informations [here](https://www.spigotmc.org/wiki/buildtools).
@@ -39,9 +26,6 @@ Close your server if it's opened.
 
 After downloaded the `CreeperDust-STATUS-x.x.jar`, put it in the `plugins` folder of you server's directory.
 Then you can start your server !
-
-## Errors and bugs
-If you found any errors or bugs you can open a ticket [here](https://github.com/Plixe/CreeperDust/issues). May sure to give the server you use (Spigot, Bukkit, Paper...) and used version.
 
 ## Commands
 The main command is `/creeperdust` but you can use `/cdust` too.
@@ -57,7 +41,9 @@ The main command is `/creeperdust` but you can use `/cdust` too.
 * **creeperdust.reload** - Player can use the reload command.
 * **creeperdust.items** - Allow player to see custom items gui.
 
-## Sources and Licence
-You can retrieve all the sources on [Github](https://github.com/Plixe/CreeperDust).
+## Errors and bugs
+This plugin is currently in a **BETA** version some bugs or errors are possible. If you found any of them you can open an new issues [here](https://github.com/Plixe/CreeperDust/issues) !
+You **MUST** specify the version your running server.
 
+## Licence
 This plugin is under the [Creative Common BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) licence.
